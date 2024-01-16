@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed:wght@100&display=swap');
 
-body {}
+body {
+    text-align: center;
+}
 
-nav {}
+nav {
+    background-color: #20841c;
+}
+
+baconbits
