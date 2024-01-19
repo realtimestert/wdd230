@@ -9,22 +9,29 @@ footer {
     margin: 0 auto;
 }
 
-marquee {
+div.banner {
+    border: 1px solid #bbb;
     padding: 1rem;
-    background-color: #eee;
+    background-color: rgb(230, 243, 254);
+    font-weight: 700;
+    word-break: break-word;
+    text-align: center;
 }
 
 h1 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
 }
 
 main {
     display: grid;
+    grid-template-columns: 1fr 200px;
 }
 
 h2 {
     color: navy;
     text-align: left;
+    grid-column: 1/3;
 }
 
 article p {
@@ -32,9 +39,10 @@ article p {
 }
 
 .callout {
-    color: #777;
-    background-color: #702963;
-    padding: 5%;
+    color: #c18f8f;
+    background-color: #0b0a33;
+    grid-column: 1/3;
+    padding: 1rem;
 
 }
 
