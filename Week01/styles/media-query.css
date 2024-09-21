@@ -1,0 +1,25 @@
+body {
+    font-family: oswald, sans-serif;
+}
+
+header,
+main,
+footer {
+    max-width: 720px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: bisque;
+    /*lobsther bithsk*/
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
+}
