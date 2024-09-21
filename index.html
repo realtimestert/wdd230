@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tags: WDD 230 - Web Frontend Development,
     Stuart J. Evans, course assignment portal">
-    <meta author="Stuart">
+    <meta name="author" content="Stuart Evans">
     <title>Stuart Evans - WDD 230 - Web Frontend Development</title>
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="larger.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <img src="images/me2.jpg" alt="Stuart Evans" width="25%" height="35%">
+        <h1>Stuart J. Evans</h1>
+    </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -20,8 +28,33 @@
             <li><a href="index.html">Form</a></li>
         </ul>
     </nav>
-    <main></main>
-    <footer></footer>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="bigcards">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <ul>Week 01
+                    <li><a href=layout.html>Layout</a></li>
+                    <li><a href=media-query.html>Media Query</a></li>
+                </ul>
+                <ul>Week 02
+                    <li><a href=layout2.html>Layout</a></li>
+                    <li><a href=media-query2.html>Media Query</a></li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Information</h2>
+                <ul>Weather Stuff</ul>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p id="copyright-year"></p>
+
+        <p id="year">©</p>
+        <p id="last-modified"></p>
+        <p>Stuart Evans, USA</p>
+    </footer>
 </body>
 
 </html>

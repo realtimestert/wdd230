@@ -1,1 +1,16 @@
 /* testing */
+
+@media (min-width: 640px) {
+    .bigcards {
+        display: flex;
+        margin: 1rem;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+}

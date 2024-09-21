@@ -1,1 +1,90 @@
 /* testing */
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+nav {
+    background-color: #E4B363;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: .5rem;
+    text-decoration: none;
+    display: flex;
+}
+
+.active {
+    color: #EF6461
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px;
+}
+
+.bigcards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    @media (max-width: 750px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    border: 1rem;
+    border-color: black;
+    margin: 1rem;
+    background-color: aqua;
+
+    h2 {
+        background-color: #386FA4;
+        font-weight: 300;
+    }
+
+    li {
+        margin-bottom: 5px;
+        list-style: none;
+        flex: 0 0 auto;
+    }
+}
+
+/*main {
+    display: flex;
+    justify-content: center;
+    max-width: 720px;
+    margin: 0 auto;
+} */
