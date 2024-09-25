@@ -66,9 +66,9 @@ nav a {
     font-size: 1.2rem;
 }
 
-.active {
+/*.active {
     color: #EF6461
-}
+} */
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);

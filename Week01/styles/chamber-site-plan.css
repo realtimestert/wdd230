@@ -4,3 +4,43 @@ body {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
 }
+
+section {
+    border: 2px solid;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: aqua;
+}
+
+.card {
+    background-color: #386FA4;
+    border: 1px solid;
+    padding: 10px;
+    max-width: 85%;
+    margin: 0 auto 30px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 5px 3px;
+}
+
+.colors {
+    width: 100%;
+    min-width: 300px;
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+.colors th,
+.colors td {
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.card-typology {
+    border: 1rem;
+}
+
+.wireframe {
+    border: 1rem;
+}
