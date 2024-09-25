@@ -1,9 +1,8 @@
-/* testing */
-/* {
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0 0.1rem;
+    border: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
     font-optical-sizing: auto;
@@ -12,37 +11,59 @@ body {
     font-family: "Oswald", sans-serif;
 }
 
+header,
+nav,
+footer {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+header {
+    background-color: #065143;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header span {
+    margin: 3rem;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+header img {
+    box-shadow: 0 0 5px 5px #000000ac;
+}
+
 h1 {
-    font-weight: 200;
+    margin: 1rem 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    border-bottom: 2px solid;
 }
 
 nav {
     background-color: #E4B363;
-    margin: 0 auto;
-    max-width: 800px;
-    text-align: center;
-    justify-content: space-between;
-    align-items: right;
-    padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-nav ul li {
-    flex: 1 1 100%;
+    padding: 0;
 }
 
 nav a {
+    text-decoration: none;
     display: block;
     color: white;
-    padding: .5rem;
-    text-decoration: none;
-    display: flex;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .active {
@@ -51,7 +72,6 @@ nav a {
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    border: 1px;
 }
 
 .bigcards {
@@ -65,26 +85,34 @@ nav a:hover {
 }
 
 .card {
-    border: 1rem;
-    border-color: black;
-    margin: 1rem;
-    background-color: aqua;
-
-    h2 {
-        background-color: #386FA4;
-        font-weight: 300;
-    }
-
-    li {
-        margin-bottom: 5px;
-        list-style: none;
-        flex: 0 0 auto;
-    }
+    border: 2px solid;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
 }
 
-/*main {
-    display: flex;
-    justify-content: center;
-    max-width: 720px;
-    margin: 0 auto;
-} */
+.card ul {
+    list-style-type: none;
+    padding: 0.5rem 0;
+    margin-left: 2rem;
+}
+
+.card ul li {
+    padding: 0.2rem 0;
+}
+
+.card h2 {
+    background-color: #386FA4;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.card p {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+footer p {
+    padding: 0.2rem;
+}
