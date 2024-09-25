@@ -1,0 +1,6 @@
+body {
+    display: grid;
+    grid-template-columns: 1 fr 1 fr;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
