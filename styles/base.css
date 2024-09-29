@@ -34,7 +34,7 @@ header {
 header span {
     margin: 3rem;
     font-size: 3rem;
-    font-weight: 1000;
+    font-weight: 600;
 }
 
 header img {
@@ -79,7 +79,7 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 
-    @media (max-width: 750px) {
+    @media (max-width: 640px) {
         grid-template-columns: 1fr;
     }
 }
