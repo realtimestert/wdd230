@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week03</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="index page" />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="Tags: WDD 230 - Web Frontend Development,
+    Stuart J. Evans, lazyload">
+    <meta name="author" content="Stuart Evans">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazyload</h1>
+    </header>
+
+    <main>
+        <h2>Landscape image, cropped</h2>
+        <img src="images/landscape.png">
+
+        <h2>Google Map Example</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13247.219442428506!2d-83.3254949!3d33.8946792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1727785665387!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut asperiores optio eaque illo quia veritatis qui
+            tenetur unde saepe. Neque quia corrupti officia laborum cumque itaque iste ipsum veritatis facilis sapiente,
+            dolore natus eveniet velit sed quod temporibus dicta reprehenderit blanditiis odio? Omnis in dolore velit
+            officiis cumque necessitatibus ea impedit! Quae soluta ipsum tempora vero, laboriosam repudiandae asperiores
+            repellat nesciunt similique cumque maiores quas dolor eveniet at, doloremque culpa ratione? Aliquam porro
+            aperiam ullam ut placeat debitis, reiciendis at aliquid similique quidem sed sint voluptatibus explicabo
+            perferendis minima nisi eligendi veniam dolores magni assumenda, consequatur autem est. Repudiandae aperiam,
+
+        </p>
+        <div>
+            <picture>
+                <img src="images/bridge.jpg" loading="lazy" width="400" height="600">
+            </picture>
+
+            <picture>
+                <img src="images/cafe.jpg" loading="lazy" width="400" height="600">
+            </picture>
+
+            <picture>
+                <img src="images/highway.jpg" loading="lazy" width="400" height="600">
+            </picture>
+
+            <picture>
+                <img src="images/milkyway.jpg" loading="lazy" width="400" height="600">
+            </picture>
+
+            <picture>
+                <img src="images/moon.jpg" loading="lazy" width="400" height="600">
+            </picture>
+
+            <picture>
+                <img src="images/mountain.jpg" loading="lazy" width="400" height="600">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> | Stuart Evans | USA</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+
+</body>
+
+</html>

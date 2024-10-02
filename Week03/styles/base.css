@@ -1,0 +1,27 @@
+/*placeholder*/
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100;
+    background: black;
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
