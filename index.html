@@ -9,10 +9,9 @@
     <meta name="author" content="Stuart Evans">
     <title>Stuart Evans - WDD 230 - Web Frontend Development</title>
     <link rel="icon" href="favicon.ico">
-    <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
-
+    <link href="styles/normalize.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -39,6 +38,16 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="week03/images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="week03/images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="week03/images/hero-large.webp" alt="atlanta temple" width="1500" height="750" loading="lazy">
+            </picture>
+            <div class="herolabel">
+                <p>Atlanta, Georgia, USA Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="bigcards">
             <section class="card">
@@ -106,6 +115,14 @@
             </section>
         </section>
     </main>
+
+    <div class="iframe">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105915.94221116389!2d-83.47152297347465!3d33.944389414684515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f66d19b4b433b9%3A0x4d747202d69d617c!2sAthens%2C%20GA!5e0!3m2!1sen!2sus!4v1727997766269!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
 
     <footer>
         <p>© <span id="year"></span> | Stuart Evans | USA</p>
