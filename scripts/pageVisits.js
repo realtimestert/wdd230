@@ -1,22 +1,14 @@
-const pageVisitCounter = document.getElementById("pageVisits");
-let pageVisits = 0;
-
 function updateVisitCounter() {
-    pageVisitCounter.textContent = 'Page Visits: ${pageVisits}';
-    localStorage.setItem("pageVisits", pageVisits);
-}
+    let visitCount = localStorage.getItem('visitCount');
 
-function loadPageVisits() {
-    const storedPageVisits = localStorage.getItem("pageVisits");
-    if (storedPageVisits) {
-        pageVisits = parseInt(storedPageVisits);
+    if (visitCount) {
+        visitCount = parseInt(visitCount) + 1;
     }
-    updateVisitCounter();
+    else {
+        visitCount = 1;
+    }
+    localStorage.setItem('visitCount', visitCount);
+    document.getElementById('pagecounter').textContent = visitCount;
 }
 
-loadPageVisits();
-
-window.addEventListener("load", () => {
-    pageVisits++;
-    updateVisitCounter();
-});
+updateVisitCounter();

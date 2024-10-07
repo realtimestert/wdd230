@@ -79,7 +79,7 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
         grid-template-columns: 1fr;
     }
 }
@@ -152,4 +152,47 @@ footer p {
 .iframe {
     margin: 0 auto;
     text-align: center;
+    width: 100%;
+}
+
+.menu {
+    display: none;
+    top: 100%;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.menu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.darkmodetoggle {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #e0e0e0;
+}
+
+.darkmodetoggle main {
+    background-color: #121212;
+}
+
+.darkmodetoggle header,
+.darkmodetoggle footer {
+    background-color: #053e33;
 }

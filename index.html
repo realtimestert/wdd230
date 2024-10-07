@@ -15,28 +15,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <meta property="og:title" content="index page" />
-    <meta property="og:type" content="website" />
-    <!--Work on web page image here-->
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="https://realtimestert.github.io/wdd230/" />
+    <meta property="og:title" content="index page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://realtimestert.github.io/wdd230/">
+    <script src="scripts/burger.js" defer></script>
+    <script src="scripts/pageVisits.js" defer></script>
+    <script src="scripts/darkMode.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <img src="images/me2.jpg" alt="Stuart Evans" width="150">
-        <span>Stuart Evans</span>
-        <img src="images/icons8-dark-theme-48.png" id="darkmodeButton" alt="dark mode">
-        <button id="darkmodeButton"></button>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="Week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="">Form</a></li>
-        </ul>
-    </nav>
+    <div class="header-container">
+        <header>
+            <div class="header-content">
+                <img src="images/me2.jpg" alt="Stuart Evans" width="150">
+                <span>Stuart Evans</span>
+                <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">☰</button>
+                <button id="darkmodeButton" class="darkmodetoggle" aria-label="Toggle Dark Mode">🌙</button>
+            </div>
+            <nav id="menu-items" class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chamber/index.html">Chamber</a></li>
+                    <li><a href="Week01/chamber-site-plan.html">Site Plan</a></li>
+                    <li><a href="">Form</a></li>
+                </ul>
+
+            </nav>
+        </header>
+    </div>
+
     <main>
         <div class="hero">
             <picture>
@@ -49,7 +57,7 @@
             </div>
         </div>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="bigcards">
+        <div class="card-containter">
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul>
@@ -112,11 +120,11 @@
                 <p>Athen, Georgia, USA</p>
                 <p>Weather</p>
                 <p>
-                <div id="pageVisits">Page Visits: 0</div>
-                <script src="scripts/pageVisits.js"></script>
+                    Page Visits: <span id="pagecounter">1</span>
                 </p>
             </section>
-        </section>
+        </div>
+
     </main>
 
     <div class="iframe">
