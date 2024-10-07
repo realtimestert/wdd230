@@ -14,7 +14,7 @@ header,
 nav,
 footer {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 768px;
 }
 
 main {
@@ -142,6 +142,7 @@ footer p {
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    height: 100%;
 }
 
 .menu {

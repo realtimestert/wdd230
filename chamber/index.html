@@ -11,45 +11,75 @@
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="faviconchamber.ico">
     <meta property="og:title" content="Athens Chamer of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://realtimestert.github.io/wdd230/chamber/index.html">
     <meta property="og:image" content="https://realtimestert.github.io/wdd230/chamber/images/athenshero.jpeg">
+    <script src="scripts/burger.js" defer></script>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="https://realtimestert.github.io/wdd230/">Home</a></li>
-            <li><a href="">Discover</a></li>
-            <li><a href="">Directory</a></li>
-            <li><a href="">Join</a></li>
-        </ul>
-    </nav>
-
     <main>
         <header>
-            <img src="images/athenshero.jpeg" alt="Hero Image" width="400">
+            <h1>Athens, Georiga Chamber of Commerce</h1>
+            <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="https://realtimestert.github.io/wdd230/">Home</a></li>
+                    <li><a href="">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Join</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <h1>Athens, Georiga Chamber of Commerce</h1>
+        <div class="hero">
+            <picture>
+                <source srcset="images/athherosmall.webp" media="(max-width: 500px)">
+                <source srcset="images/athheromedium.webp" media="(max-width: 1000px)">
+                <img src="images/athherolarge.webp" alt="athens hero" width="1500" height="750" loading="lazy">
+            </picture>
+        </div>
 
         <section class="card">
             <h2>Call to Action</h2>
-            <a href="https://www.athensga.com/">Real Athens Chamber of Commerce</a>
+            <a href="https://www.athensga.com/">Call to Action</a>
         </section>
 
         <section class="card">
             <h2>Current Events</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus libero in tincidunt pharetra. Nam
+                consectetur felis massa, non hendrerit urna tempus ac. Nulla sit amet pulvinar lectus. Curabitur arcu
+                odio, pulvinar ut est a, vestibulum viverra purus. Nunc vestibulum et felis eu tristique. Vivamus lorem
+                erat, rhoncus at neque non, elementum ultrices enim. Donec euismod dolor eros, quis bibendum dui
+                tincidunt vitae. Donec ornare est congue odio fringilla, eu consequat nibh ullamcorper. Maecenas
+                placerat velit id ipsum egestas, eget fringilla ante facilisis. Suspendisse vel massa at neque tincidunt
+                aliquet. Morbi aliquam orci sit amet felis mattis, id molestie diam dictum. Vivamus at leo vitae enim
+                gravida viverra.
+            </p>
         </section>
 
         <section class="weather">
             <h2>Weather</h2>
+            <p>30C</p>
         </section>
 
         <section class="ads">
             <h2>Advertisements</h2>
+            <p>Got Milk?</p>
+        </section>
+
+        <section class="spotlight">
+            <h2>Company Spotlight</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus libero in tincidunt pharetra. Nam
+                consectetur felis massa, non hendrerit urna tempus ac. Nulla sit amet pulvinar lectus. Curabitur arcu
+                odio, pulvinar ut est a, vestibulum viverra purus. Nunc vestibulum et felis eu tristique. Vivamus lorem
+                erat, rhoncus at neque non, elementum ultrices enim. Donec euismod dolor eros, quis bibendum dui
+                tincidunt vitae. Donec ornare est congue odio fringilla, eu consequat nibh ullamcorper. Maecenas
+                placerat velit id ipsum egestas, eget fringilla ante facilisis. Suspendisse vel massa at neque tincidunt
+                aliquet. Morbi aliquam orci sit amet felis mattis, id molestie diam dictum. Vivamus at leo vitae enim
+                gravida viverra.</p>
         </section>
 
     </main>
