@@ -5,7 +5,6 @@
 }
 
 body {
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-family: "Oswald", sans-serif;
@@ -72,16 +71,6 @@ nav a {
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
-}
-
-.bigcards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-
-    @media (max-width: 768px) {
-        grid-template-columns: 1fr;
-    }
 }
 
 .card {
