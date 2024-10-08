@@ -14,17 +14,15 @@ header,
 nav,
 footer {
     margin: 0 auto;
-    max-width: 768px;
 }
 
 main {
     margin: 0 auto;
-    max-width: 850px;
 }
 
 header {
     background-color: #065143;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     padding: 1rem;
@@ -49,11 +47,14 @@ h1 {
 
 nav {
     background-color: #E4B363;
+    display: grid;
+    grid-template-rows: 0fr;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    overflow: hidden;
 }
 
 nav a {
@@ -145,6 +146,12 @@ footer p {
     height: 100%;
 }
 
+iframe {
+    width: 100%;
+    max-width: 960px;
+    padding: 1rem;
+}
+
 .menu {
     display: none;
     top: 100%;
@@ -185,4 +192,8 @@ body.darkmodetoggle {
 .darkmodetoggle header,
 .darkmodetoggle footer {
     background-color: #053e33;
+}
+
+card-container {
+    margin: 1rem 2vw;
 }

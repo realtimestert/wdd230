@@ -6,14 +6,8 @@
     }
 
     nav {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    nav a {
-        display: inline-block;
-        width: 100%;
-        margin: 0px;
+        display: grid;
+        grid-template-rows: 1fr;
     }
 
     nav li {
@@ -25,6 +19,7 @@
         align-items: center;
         justify-content: center;
         padding: 1rem;
+        font-size: 4rem;
     }
 
     .header-content h1 {
@@ -48,15 +43,19 @@
 
     .card-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
         padding: 10px 0;
     }
 
-    .card {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        padding: 0px;
+    ul.menu {
+        display: block;
+        list-style-type: none;
     }
+
+    .menu-items {
+        display: grid;
+        grid-template-rows: auto;
+    }
+
 }

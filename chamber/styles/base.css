@@ -16,6 +16,7 @@ nav,
 footer {
     margin: 0 auto;
     max-width: 768px;
+    padding: 1rem;
 }
 
 main {
@@ -41,4 +42,31 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    padding: 1rem;
+}
+
+.menu {
+    display: none;
+    top: 100%;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.menu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    padding: 0.2rem;
 }
