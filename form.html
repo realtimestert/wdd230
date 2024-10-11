@@ -34,7 +34,7 @@
 
     <main>
         <h2>Form</h2>
-        <form>
+        <form method="get">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required
                 placeholder="Please enter your preferred Username">
@@ -43,9 +43,10 @@
             <label for="password2">Repeat Password</label>
             <input type="password" id="password2" name="password2">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required
+                placeholder="Please enter a valid email address">
             <label for="rating">Page Rating</label>
-            <input type="range" id="rating" name-="rating" required placeholder="Please rate us between 1 and 10">
+            <input type="range" id="rating" name="rating" min="1" max="10" value="5">
             <button id="btnSubmit" type="submit">Sign Up!</button>
         </form>
     </main>
