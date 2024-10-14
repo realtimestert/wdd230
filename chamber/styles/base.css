@@ -45,6 +45,29 @@ header span {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1rem;
+}
+
+.menu {
+    display: none;
+    top: 100%;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.menu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -120,4 +143,59 @@ footer p {
     display: flex;
     justify-content: center;
     gap: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-grid img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid;
+}
+
+.gallery h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin: 30px 0 10px 0;
+}
+
+.sidebar h3 {
+    font-size: 1rem;
+    margin: 2rem 0 0rem 0
+}
+
+.sidebar {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px;
+    background-color: antiquewhite;
+}
+
+.sidebar ul {
+    list-style: none;
 }
