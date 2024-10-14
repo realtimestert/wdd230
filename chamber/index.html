@@ -21,18 +21,23 @@
 
 <body>
     <main>
-        <header>
-            <h1>Athens, Georiga Chamber of Commerce</h1>
-            <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">☰</button>
-            <nav id="menu-items" class="menu">
-                <ul>
-                    <li><a href="https://realtimestert.github.io/wdd230/">Home</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                    <li><a href="">Directory</a></li>
-                    <li><a href="">Join</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="header-container">
+            <header>
+                <div class="header-content">
+                    <h1>Athens, Georiga Chamber of Commerce</h1>
+                    <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">☰</button>
+                </div>
+
+                <nav id="menu-items" class="menu">
+                    <ul>
+                        <li><a href="https://realtimestert.github.io/wdd230/">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="">Join</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
 
         <div class="hero">
             <picture>
@@ -42,12 +47,7 @@
             </picture>
         </div>
 
-        <section class="card">
-            <h2>Call to Action</h2>
-            <a href="https://www.athensga.com/">Call to Action</a>
-        </section>
-
-        <section class="card">
+        <section class="cards">
             <h2>Current Events</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus libero in tincidunt pharetra. Nam
                 consectetur felis massa, non hendrerit urna tempus ac. Nulla sit amet pulvinar lectus. Curabitur arcu
@@ -58,11 +58,6 @@
                 aliquet. Morbi aliquam orci sit amet felis mattis, id molestie diam dictum. Vivamus at leo vitae enim
                 gravida viverra.
             </p>
-        </section>
-
-        <section class="weather">
-            <h2>Weather</h2>
-            <p>30C</p>
         </section>
 
         <section class="ads">
@@ -82,14 +77,31 @@
                 gravida viverra.</p>
         </section>
 
+        <section class="cta-card">
+            <h2>Call to Action</h2>
+            <p>Connect on Social Media</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <img src="images/icons8-whatsapp.svg" alt="WhatsApp">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="images/icons8-facebook.svg" alt="Facebook">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="images/icons8-instagram.svg" alt="Instagram">
+                </a>
+            </div>
+            <a href="https://www.athensga.com/">Call to Action</a>
+        </section>
+
     </main>
 
     <footer>
         <p>© <span id="year"></span> | Stuart Evans | USA</p>
         <p id="lastModified"></p>
         <p>This is a class project for WDD230 - Frontend Web Development</p>
-        <p>Contact Information: (555) 555-5555</p>
-        <p>eva10007@byui.edu</p>
+        <p><a href="tel:+5555555555">(951) 491-1506</p>
+        <p><a href="mailto:eva10007@byui.edu">eva10007@byui.edu</a></p>
     </footer>
     <script src="scripts/getDates.js"></script>
 
