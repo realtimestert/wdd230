@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Athens Georgia Discover Page</title>
+    <meta name="description" content="Chamber of Commerce assignment">
+    <meta name="author" content="Stuart Evans">
+    <meta name="social" content="Social Media">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="icon" href="faviconchamber.ico">
+    <meta property="og:title" content="Athens Chamer of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://realtimestert.github.io/wdd230/chamber/join.html">
+    <meta property="og:image" content="https://realtimestert.github.io/wdd230/chamber/images/athenshero.jpeg">
+    <script src="scripts/burger.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="header-container">
+            <header>
+                <div class="header-content">
+                    <h1>Athens, Georiga Chamber of Commerce</h1>
+                    <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">☰</button>
+                </div>
+
+                <nav id="menu-items" class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Phone<input type="tel" name="phone" placeholder="1234567"></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Website<input type="url" name="url" placeholder="http://"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label><input type="radio" name="audience" value="beginner"> Beginner</label>
+                <label><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                <label><input type="radio" name="audience" value="advanced"> Advanced</label>
+
+                <div>Software Needed</div>
+                <label><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+                <label><input type="checkbox" name="code" value="coding"> Coding</label>
+                <label><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                <label><input type="checkbox" name="client" value="yes"> FTP Client</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Funding</legend>
+                <label>Anticipated Completion Date <input type="date" name="completedDate"></label>
+                <label>Course Subject
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business Professional</option>
+                        <option value="security">Cyber Security</option>
+                    </select>
+                </label>
+                <label>How Many Authors <input type="number" name="authors"></label>
+            </fieldset>
+
+            <input type="submit" value="Propose My Course">
+        </form>
+
+
+
+        <section class="cta-card">
+            <h2>Call to Action</h2>
+            <p>Connect on Social Media</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <img src="images/icons8-whatsapp.svg" alt="WhatsApp">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="images/icons8-facebook.svg" alt="Facebook">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="images/icons8-instagram.svg" alt="Instagram">
+                </a>
+            </div>
+            <a href="https://www.athensga.com/">Call to Action</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> | Stuart Evans | USA</p>
+        <p id="lastModified"></p>
+        <p>This is a class project for WDD230 - Frontend Web Development</p>
+        <p><a href="tel:+5555555555">(555) 555-5555</p>
+        <p><a href="mailto:eva10007@byui.edu">eva10007@byui.edu</a></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+
+</body>
+
+</html>
