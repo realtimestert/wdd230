@@ -204,3 +204,36 @@ figcaption {
 .sidebar ul {
     list-style: none;
 }
+
+.benefits {
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-section {
+    display: block;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.form-section input,
+select,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}

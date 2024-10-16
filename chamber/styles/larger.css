@@ -15,12 +15,16 @@
         margin: 0 10px;
     }
 
+    header {
+        max-width: 100%;
+    }
+
     .header-content {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 1rem;
-        font-size: 4rem;
+        font-size: 1.2rem;
     }
 
     .header-content h1 {
@@ -88,6 +92,13 @@
     .sidebar h3 {
         font-size: 1.4rem;
         margin: 2rem 0 0rem 0;
+    }
+
+    .benefits {
+        display: block;
+        padding-left: 20px;
+        border: 2px solid;
+        margin-top: 1rem;
     }
 
 }
