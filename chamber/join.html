@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of Commerce Athens Georgia Discover Page</title>
-    <meta name="description" content="Chamber of Commerce assignment">
+    <title>Chamber of Commerce Athens Georgia Join Page</title>
+    <meta name="description" content="Chamber of Commerce Join Page">
     <meta name="author" content="Stuart Evans">
     <meta name="social" content="Social Media">
     <link href="styles/base.css" rel="stylesheet">
@@ -40,7 +40,7 @@
         </div>
 
         <section class="form-section">
-            <h1>Join Our Mailing List</h1>
+            <h2>Join Our Mailing List</h2>
             <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Applicant Information</legend>
@@ -70,29 +70,25 @@
                         <option value="bronze">Bronze Membership</option>
                         <option value="silver">Silver Membership</option>
                         <option value="gold">Gold Membership</option>
+                    </select>
+                    <input type="submit" value="Join">
+
+                    <input type="hidden" name="timestamp" id="timestamp" value="">
+
+                    <aside class="benefits">Benefits
+                        <ul>
+                            <li>A non-profit organization has the same benefits as a silver level membership given
+                                the
+                                organization
+                                is
+                                able to provide 501c3 documentation.</li>
+                            <li>A Bronze Level membership</li>
+                            <li>Silver Level</li>
+                            <li>Gold Level</li>
+                        </ul>
+                    </aside>
                 </fieldset>
-
-                <fieldset>
-
-                </fieldset>
-
-                <input type="hidden" name="timestamp" id="timestamp" value="">
-                <input type="submit" value="Join">
             </form>
-
-            <aside class="benefits">Benefits</div>
-                <p>
-                <ul>
-                    <li>A non-profit organization has the same benefits as a silver level membership given the
-                        organization
-                        is
-                        able to provide 501c3 documentation.</li>
-                    <li>A Bronze Level membership</li>
-                    <li>Silver Level</li>
-                    <li>Gold Level</li>
-                </ul>
-                </p>
-            </aside>
         </section>
 
         <section class="cta-card">
@@ -118,7 +114,7 @@
         <p>© <span id="year"></span> | Stuart Evans | USA</p>
         <p id="lastModified"></p>
         <p>This is a class project for WDD230 - Frontend Web Development</p>
-        <p><a href="tel:+5555555555">(555) 555-5555</p>
+        <p><a href="tel:+5555555555">(555) 555-5555</a></p>
         <p><a href="mailto:eva10007@byui.edu">eva10007@byui.edu</a></p>
     </footer>
     <script src="scripts/getDates.js"></script>
