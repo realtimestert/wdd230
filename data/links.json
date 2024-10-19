@@ -35,7 +35,7 @@
             ]
         },
         {
-            "week": "week 3",
+            "week": "Week 3",
             "links": [
                 {
                     "url": "week03/images/landscape.png",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "week": "week 4",
+            "week": "Week 4",
             "links": [
                 {
                     "url": "https://codepen.io/Stuart-Evans-the-sans/pen/MWNbGXR",
@@ -77,6 +77,15 @@
                 {
                     "url": "Week04/form-start/Form-start/index.html",
                     "title": "Prepare Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather"
                 }
             ]
         }

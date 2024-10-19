@@ -201,3 +201,8 @@ body.darkmodetoggle {
 .card .learn-list {
     padding: 1rem;
 }
+
+.weather-icon {
+    padding: 1rem;
+    justify-items: center;
+}

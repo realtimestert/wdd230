@@ -5,8 +5,8 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const myKey = "0c63d582f7628117ae63a49299dfbd53";
-const latitude = 49.74902187246025;
-const longitude = 6.633769895206869;
+const latitude = 33.950175101515974;
+const longitude = -83.35544263381597;
 
 const url = `//api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${myKey}&units=imperial`;
 
