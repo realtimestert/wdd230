@@ -197,3 +197,7 @@ body.darkmodetoggle {
 .card-container {
     margin: 1rem 2vw;
 }
+
+.card .learn-list {
+    padding: 1rem;
+}

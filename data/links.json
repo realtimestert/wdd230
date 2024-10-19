@@ -10,6 +10,73 @@
                 {
                     "url": "week01/media-query/html",
                     "title": "mQueries"
+                },
+                {
+                    "url": "https://codepen.io/Stuart-Evans-the-sans/pen/PoMPPrg",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Stuart-Evans-the-sans/pen/VwovvZp",
+                    "title": "Hamburger Menu Pen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM"
+                }
+            ]
+        },
+        {
+            "week": "week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.png",
+                    "title": "WebP"
+                },
+                {
+                    "url": "Week03/lazyload.html",
+                    "title": "lazyload"
+                },
+                {
+                    "url": "Week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "Week03/bom.html",
+                    "title": "Chapter Array"
+                }
+            ]
+        },
+        {
+            "week": "week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Stuart-Evans-the-sans/pen/MWNbGXR",
+                    "title": "CSS Pseudo Classes"
+                },
+                {
+                    "url": "Week04/combinator.png",
+                    "title": "Combinator Exercise"
+                },
+                {
+                    "url": "Week04/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "Week04/form.html",
+                    "title": "Forms"
+                },
+                {
+                    "url": "Week04/form-start/Form-start/index.html",
+                    "title": "Prepare Forms"
                 }
             ]
         }
