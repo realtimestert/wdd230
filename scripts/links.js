@@ -1,6 +1,6 @@
 const baseURL = "https://realtimestert.github.io/wdd230/";
 
-const linksURL = "https://realtimestert.github.io/wdd230//data/links.json";
+const linksURL = "https://realtimestert.github.io/wdd230/data/links.json";
 
 async function getLinks() {
     try {
