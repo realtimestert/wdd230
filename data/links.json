@@ -90,6 +90,14 @@
                 {
                     "url": "week05/prophets.html",
                     "title": "Prophets"
+                },
+                {
+                    "url": "week05/new-ward-members.html",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://codepen.io/Stuart-Evans-the-sans/pen/XWvamVm",
+                    "title": "CSS Pseudo Elements"
                 }
             ]
         }
