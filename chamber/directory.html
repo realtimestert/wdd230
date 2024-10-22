@@ -17,6 +17,7 @@
     <meta property="og:url" content="https://realtimestert.github.io/wdd230/chamber/index.html">
     <meta property="og:image" content="https://realtimestert.github.io/wdd230/chamber/images/athenshero.jpeg">
     <script src="scripts/burger.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
@@ -32,12 +33,22 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
-                        <li><a href="">Directory</a></li>
+                        <li><a href="directory.html">Directory</a></li>
                         <li><a href="join.html">Join</a></li>
                     </ul>
                 </nav>
             </header>
         </div>
+
+        <section class="member-directory">
+            <h2>Member Directory</h2>
+            <div class="view-toggle">
+                <button id="grid-view">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
+        </section>
+        <section id="directory-container" class="directory-grid">
+        </section>
 
         <section class="cta-card">
             <h2>Call to Action</h2>

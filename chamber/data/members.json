@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Classic City Bee Company",
+            "address": "4035 Barnett Shoals Rd. Athens, GA 30605",
+            "phone": "+15555555555",
+            "website": "https://www.instagram.com/classiccitybee/",
+            "image": "bees.svg",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name": "The Classic Center",
+            "address": "300 N Thomas St, Athens, GA 30601",
+            "phone": "+17062080900",
+            "website": "classiccenter.com",
+            "image": "classiccenter.svg",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Piedmont Athens Regional",
+            "address": "1199 Prince Ave, Athens, GA 30606",
+            "phone": "+17064757000",
+            "website": "piedmont.org",
+            "image": "piedmont.png",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "The University of Georgia",
+            "address": "University of Georgia Chapel, Herty Dr, Athens, GA 30602",
+            "phone": "+17065423000",
+            "website": "uga.edu",
+            "image": "Georgia_Athletics_logo.svg",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "ACTION Inc.",
+            "address": "2440 West Broad Street, Suite 5",
+            "phone": "+17062277969",
+            "website": "actionathens.org",
+            "image": "action.webp",
+            "membershipLevel": "non-profit"
+        },
+        {
+            "name": "Advantage Behavioral Health Systems",
+            "address": "250 Bray Street, Athens, GA 30601",
+            "phone": "+17063896789",
+            "website": "https://advantagebhs.org/",
+            "image": "abhs_logo_s1_solid.svg",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Athens Coca-Cola Bottling Company",
+            "address": "650 Athens Dr, Athens, GA 30601",
+            "phone": "+17065495267",
+            "website": "https://cocacolaunited.com/locations/athens/",
+            "image": "logo-athens-cocacola.png",
+            "membershipLevel": "bronze"
+        }
+    ]
+}
