@@ -345,7 +345,3 @@ textarea {
 .directory-list .member-card a:hover::after {
     width: 100%;
 }
-
-.directory-list .member-card a:hover {
-    color: #002349;
-}
