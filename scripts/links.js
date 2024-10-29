@@ -1,12 +1,12 @@
 const baseURL = "https://realtimestert.github.io/wdd230/";
 
-const linksURL = "https://realtimestert.github.io/wdd230/data/links.json";
+const linksURL = baseURL + "data/links.json";
 
 async function getLinks() {
     try {
         const response = await fetch(linksURL);
         const data = await response.json();
-
+        console.log(data);
         displayLinks(data.weeks);
     } catch (error) {
         console.error("Error fetching links:", error);
@@ -24,11 +24,11 @@ function displayLinks(weeks) {
 
         week.links.forEach((link, index) => {
             const anchor = document.createElement("a");
-            anchor.href = baseURL + linksURL;
+            anchor.href = baseURL + link.url;
             anchor.textContent = link.title;
             listItem.appendChild(anchor);
             if (index < week.links.length - 1) {
-                const separator = document.createTextNode(" | ")
+                const separator = document.createTextNode(" | ");
                 listItem.appendChild(separator);
             }
         });

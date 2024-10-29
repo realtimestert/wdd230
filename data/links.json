@@ -21,7 +21,7 @@
             "week": "Week 2",
             "links": [
                 {
-                    "url": "week02/design.html",
+                    "url": "Week02/design.html",
                     "title": "Web Design Principles"
                 },
                 {
@@ -29,7 +29,7 @@
                     "title": "Hamburger Menu Pen"
                 },
                 {
-                    "url": "week02/bom.html",
+                    "url": "Week02/bom.html",
                     "title": "DOM"
                 }
             ]
@@ -38,7 +38,7 @@
             "week": "Week 3",
             "links": [
                 {
-                    "url": "week03/images/landscape.png",
+                    "url": "Week03/images/landscape.png",
                     "title": "WebP"
                 },
                 {
@@ -84,15 +84,15 @@
             "week": "Week 5",
             "links": [
                 {
-                    "url": "week05/weather.html",
+                    "url": "Week05/weather.html",
                     "title": "Weather"
                 },
                 {
-                    "url": "week05/prophets.html",
+                    "url": "Week05/prophets.html",
                     "title": "Prophets"
                 },
                 {
-                    "url": "week05/new-ward-members.html",
+                    "url": "Week05/new-ward-members.html",
                     "title": "JSON"
                 },
                 {
