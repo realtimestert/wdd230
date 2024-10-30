@@ -1,0 +1,1 @@
+const day = new Date().getDay();

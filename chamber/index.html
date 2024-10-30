@@ -17,6 +17,8 @@
     <meta property="og:url" content="https://realtimestert.github.io/wdd230/chamber/index.html">
     <meta property="og:image" content="https://realtimestert.github.io/wdd230/chamber/images/athenshero.jpeg">
     <script src="scripts/burger.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
 </head>
 
 <body>
@@ -36,6 +38,9 @@
                         <li><a href="join.html">Join</a></li>
                     </ul>
                 </nav>
+                <div class="banner">
+                    <p>Join us on Wednesday for the Chamber of Commerce meet and greet</p>
+                </div>
             </header>
         </div>
 
@@ -49,14 +54,7 @@
 
         <section class="cards">
             <h2>Current Events</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus libero in tincidunt pharetra. Nam
-                consectetur felis massa, non hendrerit urna tempus ac. Nulla sit amet pulvinar lectus. Curabitur arcu
-                odio, pulvinar ut est a, vestibulum viverra purus. Nunc vestibulum et felis eu tristique. Vivamus lorem
-                erat, rhoncus at neque non, elementum ultrices enim. Donec euismod dolor eros, quis bibendum dui
-                tincidunt vitae. Donec ornare est congue odio fringilla, eu consequat nibh ullamcorper. Maecenas
-                placerat velit id ipsum egestas, eget fringilla ante facilisis. Suspendisse vel massa at neque tincidunt
-                aliquet. Morbi aliquam orci sit amet felis mattis, id molestie diam dictum. Vivamus at leo vitae enim
-                gravida viverra.
+            <p>Halloween Trunk or Treat at the Civic Center
             </p>
         </section>
 
@@ -75,6 +73,15 @@
                 placerat velit id ipsum egestas, eget fringilla ante facilisis. Suspendisse vel massa at neque tincidunt
                 aliquet. Morbi aliquam orci sit amet felis mattis, id molestie diam dictum. Vivamus at leo vitae enim
                 gravida viverra.</p>
+        </section>
+
+        <section id="weather" class="card">
+            <h2>Local 3-day Weather</h2>
+            <p id="current-temp"></p>
+            <figure>
+                <img id="weather-icon">
+            </figure>
+            <div id="forecast"></div>
         </section>
 
         <section class="cta-card">
