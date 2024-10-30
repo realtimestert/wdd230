@@ -345,3 +345,28 @@ textarea {
 .directory-list .member-card a:hover::after {
     width: 100%;
 }
+
+.banner {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: var(black);
+    color: white;
+    padding: 15px;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.close-banner {
+    border: none;
+    padding: .33rem;
+    z-index: 10;
+    cursor: pointer;
+    position: left;
+    background-color: #065143;
+}
+
+.banner p {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
