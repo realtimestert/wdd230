@@ -35,7 +35,7 @@ function displayResults(data) {
 
 async function apiFetch2() {
     try {
-        const response2 = await fetch
+        const response2 = await fetch(forcastUrl)
         if (response2.ok) {
             const data2 = await response2.json();
             console.log(data2);
