@@ -369,3 +369,116 @@ textarea {
 .banner p {
     display: inline-block;
 }
+
+.menu {
+    display: none;
+    /* Hidden by default */
+}
+
+.menu.open {
+    display: block;
+    /* Visible when 'open' class is added */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Removes bullet points */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+}
+
+nav ul li {
+    padding: 10px 0;
+    /* Adds some spacing between menu items */
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Creates horizontal layout */
+    flex-direction: column;
+    /* Stacks items vertically for mobile */
+}
+
+nav ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: #333;
+    /* Choose your preferred text color */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #007bff;
+    /* Color change on hover */
+}
+
+/* Media query for larger screens to make menu horizontal */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+        /* Spaces out menu items */
+    }
+}
+
+:root {
+    --primary-bg: #065143;
+    /* Deep green background */
+    --primary-text: #F0F4F2;
+    /* Light off-white text */
+    --accent-light: #E2F3EF;
+    /* Light mint accent */
+    --accent-interactive: #39B54A;
+    /* Bright green for links/buttons */
+    --neutral-light: #E0E0E0;
+    /* Light gray */
+    --neutral-dark: #333333;
+    /* Dark gray for secondary text */
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+a {
+    color: var(--accent-interactive);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-light);
+}
+
+nav ul li a {
+    color: #F0F4F2;
+    /* Light off-white that provides high contrast */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #39B54A;
+    /* Bright green accent for hover state */
+    text-decoration: underline;
+}
